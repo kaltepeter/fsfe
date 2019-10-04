@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 app.get("/teatime", (req, res) => {
   res.status(418);
   res.setHeader("X-message", "yo i'm a teapot");
-  res.end();
+  res.end("I'm a \uf0f4");
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
