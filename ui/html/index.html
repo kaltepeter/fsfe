@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Full Stack Frontend Demo Page</title>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <title>Full Stack Frontend Demo Page</title>
+  </head>
 
-<link rel="stylesheet" type="text/css" href="./static/styles.css">
-<body>
-	<input class="input-box" placeholder="Say something"/>
-	<div class="output"></div>
-</body>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <body class="mdc-typography">
+    <div class="mdc-card">
+      <div class="mdc-text-field">
+        <div class="mdc-text-field mdc-text-field--fullwidth">
+          <input
+            class="mdc-text-field__input input-box"
+            type="text"
+            placeholder="Say something"
+            aria-label="Say something"
+          />
+        </div>
+        <div class="mdc-line-ripple"></div>
+      </div>
+      <div class="content">
+        <p class="output mdc-typography--body1"></p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  </body>
 
-
-
-
-<script type="text/javascript" src="/js/index.js"></script>
-
-
+  <script type="text/javascript" src="/js/index.js"></script>
 </html>

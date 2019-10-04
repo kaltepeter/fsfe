@@ -1,0 +1,12 @@
+body {
+  background: #333;
+  padding: 2em;
+}
+
+.content {
+  margin: 2em;
+}
+
+input {
+  text-indent: 2em;
+}
